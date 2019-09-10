@@ -1,0 +1,16 @@
+set1 = set(("banana", "cherry", "grapes", "peach"))
+print(" how many items in the set ?")
+print(len(set1))
+print("-------")
+
+# delete an item
+print(set1)
+set1.remove("banana")
+print("used remove() on the set")
+print(set1)
+print("-------")
+# using pop()
+print(" used pop() to delete an item")
+set1.pop()
+print(set1)
+print("----------")
